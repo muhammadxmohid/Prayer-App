@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'dart:math';
+import 'package:geolocator/geolocator.dart';
+
 
 class QiblaScreen extends StatefulWidget {
   @override
