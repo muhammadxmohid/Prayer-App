@@ -1,0 +1,21 @@
+name: my_prayer_companion
+description: Prayer times + Qibla compass + reminders
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  geolocator: ^9.0.2
+  flutter_compass: ^0.8.0
+  flutter_local_notifications: ^13.0.0
+  shared_preferences: ^2.1.1
+  intl: ^0.18.1
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
